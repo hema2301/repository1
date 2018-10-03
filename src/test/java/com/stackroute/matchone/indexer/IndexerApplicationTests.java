@@ -13,7 +13,7 @@ public class IndexerApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		assertNotNull("Not found");
+		assertNotNull("");
 	}
 
 }

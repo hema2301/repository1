@@ -106,16 +106,20 @@ public class ProjectIndex {
 	public void setProjectURL(String projectURL) {
 		this.projectURL = projectURL;
 	}
+	
 	public ProjectIndex(String profileId, String projectTitle, String client, String projectStatus, Integer duration,
-			String projectDetails, Integer projectMembers, String role, String projectLocation, String projectAt,
-			Integer teamSize, String skills, String projectURL, String message) {
-		super();
+			String projectDetails) {
 		this.profileId = profileId;
 		this.projectTitle = projectTitle;
 		this.client = client;
 		this.projectStatus = projectStatus;
 		this.duration = duration;
-		this.projectDetails = projectDetails;
+		this.projectDetails = projectDetails;	
+	}
+	
+	public ProjectIndex(Integer projectMembers, String role, String projectLocation, String projectAt,
+				Integer teamSize, String skills, String projectURL, String message) {
+			super();
 		this.projectMembers = projectMembers;
 		this.role = role;
 		this.projectLocation = projectLocation;
