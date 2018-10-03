@@ -1,5 +1,7 @@
 package com.stackroute.matchone.indexer;
 
+import static org.junit.Assert.assertNotNull;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,7 +13,7 @@ public class IndexerApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		System.out.println("");
+		assertNotNull("Not found");
 	}
 
 }
