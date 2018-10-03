@@ -22,9 +22,9 @@ public class Knows {
 
 	//private String name;
 	@StartNode
-	UserNode user;
+	private UserNode user;
 	@EndNode
-	SkillNode skill;
+	private SkillNode skill;
 	
 	/*
 	 * This class should have certain required fields

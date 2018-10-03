@@ -11,6 +11,7 @@ public class IndexerApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("");
 	}
 
 }

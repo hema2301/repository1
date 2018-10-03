@@ -21,9 +21,9 @@ public class CertifiedIn {
 
 	//private String name;
 	@StartNode
-	UserNode user;
+	private UserNode user;
 	@EndNode
-	CertificationNode certi;
+	private CertificationNode certi;
 	
 	/*
 	 * This class should have certain required fields

@@ -21,9 +21,9 @@ public class WorkedOn {
 
 //	private String name;
 	@StartNode
-	UserNode user;
+	private UserNode user;
 	@EndNode
-	ProjectNode projectNode;
+	private ProjectNode projectNode;
 	
 	/*
 	 * This class should have certain required fields

@@ -125,6 +125,14 @@ public class ProjectIndex {
 		this.projectURL = projectURL;
 		this.message = message;
 	}
+	@Override
+	public String toString() {
+		return "ProjectIndex [profileId=" + profileId + ", projectTitle=" + projectTitle + ", client=" + client
+				+ ", projectStatus=" + projectStatus + ", duration=" + duration + ", projectDetails=" + projectDetails
+				+ ", projectMembers=" + projectMembers + ", role=" + role + ", projectLocation=" + projectLocation
+				+ ", projectAt=" + projectAt + ", teamSize=" + teamSize + ", skills=" + skills + ", projectURL="
+				+ projectURL + ", message=" + message + "]";
+	}
 
 	
 	

@@ -22,9 +22,9 @@ public class Holds {
 	
 	//private String name;
 	@StartNode
-	UserNode user;
+	private UserNode user;
 	@EndNode
-	AcademicNode academicNode;
+	private AcademicNode academicNode;
 	
 	/*
 	 * This class should have certain required fields
